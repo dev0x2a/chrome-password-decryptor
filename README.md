@@ -1,11 +1,11 @@
 # chromium-password-decryptor
 Chromium v80+ password & decryptor, supports user profile
 
-Chromium based browser password and cookies decryptor.
-It support user profiles like "Profile 1" , "Profile 2" , etc.
+Chromium based browser password and cookies decryptor.    
+It support user profiles like "Profile 1" , "Profile 2" , etc.  
 For other chromium based browser, change browser path in source.
 
-**Note**: This program is vulnerable to heap overflow. 
+**Note**: This program is vulnerable to heap overflow.   
 The decrypted data is stored in heap, 512KB is allocated for passwords and 2MB for cookies per profile.
 In normal cases, it should work.
 
