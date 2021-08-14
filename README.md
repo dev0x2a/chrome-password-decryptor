@@ -7,7 +7,7 @@ For other chromium based browser, change browser path in source.
 
 **Note**: This program is vulnerable to heap overflow.   
 The decrypted data is stored in heap, 512KB is allocated for passwords and 2MB for cookies per profile.    
-In normal cases, it should work.
+In normal case, it should work.
 
 *Pull requests* are welcome. The author had no intention to make it stealth, undetectable from AV's.
 
